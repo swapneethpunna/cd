@@ -1,34 +1,18 @@
-body{
-    background:linear-gradient(135.9deg, #4c4f94 , #4fe8e8);
-    height:120vh;
-    width:100%;
-    }
+.formm {
+    width: 500px;
+    max-width: 100%;
+}
 
-    .heading {
-        text-align: center;
-    }
-    
-    .container {
-        max-width: 900px;
-    }
-    form{
-        border-radius: 20px;
-    } 
+body {
+    background:linear-gradient(360deg, #4c4f94 , #4fe8e8);
+} 
 
-    #cont {
-        box-shadow:3px 3px 3px rgba(0,0,0,0.5);
-        border-radius: 20px;
-    }
-   
-    .btn{
-        width: 200px;
-        font-weight: 600;
-        background:linear-gradient(360deg, #4c4f94 , #4fe8e8);
-    }
-    
-    .error {
-        font-size: 12px;
-        display: flex;
-        align-items: flex-start;
-        color: red;
-    }
+.title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border-radius: 8px;
+}
